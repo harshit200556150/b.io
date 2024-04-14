@@ -2,7 +2,7 @@ const jokeContainer = document.getElementById('jokeContainer');
 const getJokeButton = document.getElementById('getJoke');
 
 const apiUrl = 'https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random';
-const apiKey = 'https://api.chucknorris.io/jokes/random';
+const apiKey = 'https://api.chucknorris.io/jokes/1n-8CqniTlWWjQs1CYlQqw';
 
 getJokeButton.addEventListener('click', async () => {
   try {
