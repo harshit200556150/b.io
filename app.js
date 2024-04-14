@@ -1,8 +1,8 @@
 const jokeContainer = document.getElementById('jokeContainer');
 const getJokeButton = document.getElementById('getJoke');
 
-const apiUrl = 'https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random';
-const apiKey = 'https://api.chucknorris.io/jokes/1n-8CqniTlWWjQs1CYlQqw';
+const apiUrl = 'https://api.chucknorris.io/jokes/y-rZkP9qRwSiK-mc8zKVqw';
+const apiKey = 'https://api.chucknorris.io/jokes/random';
 
 getJokeButton.addEventListener('click', async () => {
   try {
