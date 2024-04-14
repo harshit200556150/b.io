@@ -4,7 +4,7 @@ function searchWeather() {
     const exclude = 'current,minutely,hourly'; // Exclude current, minutely, and hourly data
     const apiKey = '0c3b0c1ab5186281fff62d3ab67fd066'; // Replace with your actual API key
 
-    const apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude=${exclude}&appid=${apiKey}`;
+    const apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude=${exclude}&appid=${0c3b0c1ab5186281fff62d3ab67fd066}`;
 
     fetch(apiUrl)
         .then(response => {
